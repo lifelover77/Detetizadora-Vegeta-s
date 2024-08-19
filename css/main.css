@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-image: url('/images/R.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333;
+}
+
+.gif {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.gif img {
+    width: 15%;
+    height: 22%;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    margin: 20px 20px;
+    top: 0;
+    left: 0;
+}
+
+.gif2 {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.slogan {
+    font-size: 20px;
+    color: #3399ff;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #3399ff;
+}
+
+table th {
+    background-color: yellow;
+    color: #000;
+    text-transform: uppercase;
+}
+
+table td {
+    background-color: #333;
+    color: #fff;
+}
